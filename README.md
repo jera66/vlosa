@@ -1,5 +1,7 @@
 # VLOSA — Virtual Life Operating System Agent
 
+![VLOSA](./assets/vlosa_screenshot.png)
+
 **A personal AI-powered life operations platform that manages 80% of your life (inbox, tasks, and communications with intelligent automation.)**
 
 ---
