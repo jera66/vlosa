@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "VLOSA",
+    "slug": "vlosa-mobile",
+    "version": "1.0.0",
+    "scheme": "vlosa",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.vlosa.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.vlosa.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E8EDF2"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "newArchEnabled": false
+          },
+          "android": {
+            "newArchEnabled": false
+          }
+        }
+      ]
+    ]
+  }
+}
